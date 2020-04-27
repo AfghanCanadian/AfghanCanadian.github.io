@@ -10,6 +10,7 @@ html, body {
 .background-2020 {
     background-image: url("./assets/2019/image (5).jpg");
     background-position: center;
+    background-size: cover;
     /* background-size: 100%; */
 }
 
@@ -54,6 +55,7 @@ html, body {
 .background-2019 {
     background-image: url("./assets/2019/image (2).jpg");
     background-position: center;
+    background-size: cover;
     /* background-size: contain; */
     /* background-size: 100%; */
     filter: grayscale(100%);
