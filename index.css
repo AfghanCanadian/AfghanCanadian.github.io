@@ -92,3 +92,31 @@ html, body {
     line-height: 1em;
 }
 
+.carousel-indicators > li {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+/* For width 500px and larger: */
+@media only screen and (min-width: 500px){
+    .carousel-item{
+        overflow:hidden;
+        height: 600px;
+    }
+}
+
+.carousel-inner > .item > img {
+    width:640px;
+    height:360px;
+  }
+
+
+.black-overlay{
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0,0, 0.4);
+}
