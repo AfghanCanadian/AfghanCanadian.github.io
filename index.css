@@ -118,5 +118,21 @@ html, body {
     left: 0px;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0,0, 0.4);
+    /* background: rgba(0, 0,0, 1); */
+}
+
+.carousel-inner {
+    height: 100vh;
+}
+
+.carousel-item {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.carousel-item > img {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
